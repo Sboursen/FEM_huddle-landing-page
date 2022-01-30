@@ -11,6 +11,13 @@
     crossorigin="anonymous" />
   <link rel="icon" type="image/png" sizes="32x32"
     href="./images/favicon-32x32.png">
+  <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com"
+    crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./dist/styles.css">
   <title>Frontend Mentor | Huddle landing page with curved
     sections</title>
@@ -22,18 +29,64 @@
       <img class="h-6" src="./images/logo.svg"
         alt="my logo">
       <button
-        class="px-4  bg-transparent border-2 rounded-3xl border-pink-400">Try
+        class="px-4  bg-transparent border-2 rounded-full border-light-pink font-body font-normal text-light-pink">Try
         it
         free</button>
     </nav>
   </header>
 
-  Build The Community Your Fans Will Love
+  <main>
+    <section
+      class="flex flex-col items-center py-12 gap-5 text-white bg-contain bg-no-repeat bg-bottom bg-section-top-mobile-1 md:bg-section-top-desktop-1">
+      <h1
+        class="font-headings font-bold text-center text-2xl px-6 text-ver-dark-cyan">
+        Build
+        The
+        Community Your Fans Will Love</h1>
+      <p
+        class="font-body font-normal text-center px-6 text-ver-dark-cyan">
+        Huddle
+        re-imagines
+        the way we
+        build communities.
+        You have
+        a voice, but so does
+        your audience. Create connections with your users as
+        you
+        engage in genuine discussion.</p>
+      <button type="button"
+        class="px-8 py-4 mt-4 text-white text-center font-body font-semibold bg-pink w-fit rounded-full">Get
+        Started
+        For Free</button>
+      <img class="px-6 pt-16"
+        src="./images/screen-mockups.svg"
+        alt="screen mockups">
 
-  Huddle re-imagines the way we build communities. You have
-  a voice, but so does
-  your audience. Create connections with your users as you
-  engage in genuine discussion.
+      <div
+        class="flex flex-col gap-16 p-16 items-center font-body text-ver-dark-cyan">
+        <div class="community flex flex-col items-start">
+          <img src="./images/icon-communities.svg"
+            alt="communities icon">
+          <p class="text-bold text-6xl text-left">1.4k+
+          </p>
+          <p class="text-center text-slate-400 pt-1">
+            Communities Formed</p>
+        </div>
+        <div class="messages">
+          <img src="./images/icon-messages.svg"
+            alt="messages icon">
+          <p class="text-bold text-6xl text-left">2.7m+
+          </p>
+          <p class="text-center text-slate-400 pt-1">
+            Messages
+            Sent</p>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
 
   Get Started For Free
 
