@@ -539,22 +539,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: transparent;
 }
 
-.bg-red-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
-}
-
 .bg-pink {
   --tw-bg-opacity: 1;
   background-color: hsl(322 100% 66% / var(--tw-bg-opacity));
 }
 
-.bg-section-top-mobile-1 {
-  background-image: url('../images/bg-section-top-mobile-1.svg');
+.bg-very-pale-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 251 255 / var(--tw-bg-opacity));
 }
 
-.bg-cover {
-  background-size: cover;
+.bg-section-top-mobile-1 {
+  background-image: url('../images/bg-section-top-mobile-1.svg');
 }
 
 .bg-contain {
@@ -588,19 +584,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 3rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .pt-8 {
@@ -667,7 +673,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-ver-dark-cyan {
+.text-very-dark-cyan {
   --tw-text-opacity: 1;
   color: hsl(192 100% 9% / var(--tw-text-opacity));
 }
@@ -675,6 +681,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-slate-400 {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+
+.section-3 {
+  background-image: url(../images/bg-section-bottom-mobile-1.svg),
+    url(../images/bg-section-top-mobile-2.svg);
+  background-position: top, bottom;
 }
 
 @media (min-width: 768px) {

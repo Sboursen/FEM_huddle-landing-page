@@ -47,8 +47,8 @@ module.exports = {
         'light-pink': 'hsl(321, 100%, 78%)',
         'light-red': 'hsl(0, 100%, 63%)',
         // Neutral
-        'ver-dark-cyan': 'hsl(192, 100%, 9%)',
-        'ver-pale-blue': 'hsl(207, 100%, 98%)',
+        'very-dark-cyan': 'hsl(192, 100%, 9%)',
+        'very-pale-blue': 'rgb(246, 251, 255)',
       },
       fontFamily: {
         headings: ['Poppins', 'sans-serif'],
